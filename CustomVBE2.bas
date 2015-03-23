@@ -158,16 +158,7 @@ Exit Function
 
 ErrHandler:
 
-With Err
-    gstrErrorDescription = .Description
-    glngErrorHelpContext = .HelpContext
-    gstrErrorHelpFile = .HelpFile
-    glngLastDllError = .LastDllError
-    glngErrorNumber = .Number
-    gstrErrorSource = .Source
-    glngErrorLine = Erl
-    .Clear
-End With
+
 
 End Function
 
@@ -221,16 +212,6 @@ AddProcedureNameConstant = True
 Exit Function
 ErrHandler:
 
-With Err
-    gstrErrorDescription = .Description
-    glngErrorHelpContext = .HelpContext
-    gstrErrorHelpFile = .HelpFile
-    glngLastDllError = .LastDllError
-    glngErrorNumber = .Number
-    gstrErrorSource = .Source
-    glngErrorLine = Erl
-    .Clear
-End With
 
 End Function
 
@@ -280,16 +261,7 @@ Exit Function
 
 ErrHandler:
 
-With Err
-    gstrErrorDescription = .Description
-    glngErrorHelpContext = .HelpContext
-    gstrErrorHelpFile = .HelpFile
-    glngLastDllError = .LastDllError
-    glngErrorNumber = .Number
-    gstrErrorSource = .Source
-    glngErrorLine = Erl
-    .Clear
-End With
+
 
 
 End Function
@@ -334,16 +306,7 @@ Exit Function
 
 ErrHandler:
 
-With Err
-    gstrErrorDescription = .Description
-    glngErrorHelpContext = .HelpContext
-    gstrErrorHelpFile = .HelpFile
-    glngLastDllError = .LastDllError
-    glngErrorNumber = .Number
-    gstrErrorSource = .Source
-    glngErrorLine = Erl
-    .Clear
-End With
+
 
 End Function
 
@@ -390,17 +353,6 @@ End If
 On Error GoTo 0
 Exit Function
 ErrHandler:
-
-With Err
-    gstrErrorDescription = .Description
-    glngErrorHelpContext = .HelpContext
-    gstrErrorHelpFile = .HelpFile
-    glngLastDllError = .LastDllError
-    glngErrorNumber = .Number
-    gstrErrorSource = .Source
-    glngErrorLine = Erl
-    .Clear
-End With
 
 End Function
 

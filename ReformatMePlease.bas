@@ -2,6 +2,7 @@ Attribute VB_Name = "ReformatMePlease"
 Option Explicit
 
 Sub TestThisCode()
+Const cstrMethodName As String = "ReformatMePlease.TestThisCode  "
 Const string1 As String = "Hello"
 Const string2 As String = "world"
 Const string3 As String = "!"
