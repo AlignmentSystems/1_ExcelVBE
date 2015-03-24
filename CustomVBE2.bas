@@ -6,7 +6,7 @@ Option Base 0
 '
 '
 '   Author      :       John Greenan
-'   Email       :       john.greenan@alignment-systems.com
+'   Email       :       
 '   Company     :       Alignment Systems Limited
 '   Date        :       10th September 2014
 '
@@ -31,7 +31,7 @@ Private Function ValidToProcessThisComponent(IncomingComponentName As String) As
 '
 '
 '   Author      :       John Greenan
-'   Email       :       john.greenan@alignment-systems.com
+'   Email       :       
 '   Company     :       Alignment Systems Limited
 '   Date        :       10th September 2014
 '
@@ -72,7 +72,7 @@ Private Function AddFunctionNamesToCodeModule(IncomingCodeModule As VBIDE.CodeMo
 '
 '
 '   Author      :       John Greenan
-'   Email       :       john.greenan@alignment-systems.com
+'   Email       :       
 '   Company     :       Alignment Systems Limited
 '   Date        :       10th September 2014
 '
@@ -167,7 +167,7 @@ Private Function AddProcedureNameConstant(CodeModule As VBIDE.CodeModule, Proced
 '
 '
 '   Author      :       John Greenan
-'   Email       :       john.greenan@alignment-systems.com
+'   Email       :       
 '   Company     :       Alignment Systems Limited
 '   Date        :       10th September 2014
 '
@@ -220,7 +220,7 @@ Private Function FindProcedureNameConstant(CodeModule As VBIDE.CodeModule, Proce
 '
 '
 '   Author      :       John Greenan
-'   Email       :       john.greenan@alignment-systems.com
+'   Email       :       
 '   Company     :       Alignment Systems Limited
 '   Date        :       10th September 2014
 '
@@ -271,7 +271,7 @@ Private Function EntryPointAddFunctionName() As Boolean
 '
 '
 '   Author      :       John Greenan
-'   Email       :       john.greenan@alignment-systems.com
+'   Email       :       
 '   Company     :       Alignment Systems Limited
 '   Date        :       10th September 2014
 '
@@ -316,7 +316,7 @@ Private Function IsThisAValidLine(TestValue As String, StringOfCode As String) A
 '
 '
 '   Author      :       John Greenan
-'   Email       :       john.greenan@alignment-systems.com
+'   Email       :       
 '   Company     :       Alignment Systems Limited
 '   Date        :       10th September 2014
 '
